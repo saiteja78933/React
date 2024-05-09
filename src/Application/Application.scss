@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.cart{
+  position: absolute;
+  z-index: 1000;
+  right: 2rem;
+  top: 1.3rem;
+  padding: 3px;
+  background-color: yellow;
+  border-radius: 10px;
+  .cart-count{
+    position:absolute;
+    right:1vw;
+    bottom: 5.5vh;
+    padding: 2px;   
+    background-color: red;
+    border-radius: 50%;
+    width: 1.5vw; 
+    height: 1.5vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color:white;
+  }
+  .cart-image{
+    height: 8vh;
+    width: auto
+  }
+}
+.content{
+  overflow-y: scroll;
+  border-radius: 20px;
+  width:100vw;
+  height:100vh;
+}

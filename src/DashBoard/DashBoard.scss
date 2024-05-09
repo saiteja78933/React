@@ -1,0 +1,26 @@
+.dashboard-main{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:rgb(20, 155, 132);
+  height: 100vh;
+
+}
+.dashboard-cards{
+  padding: 20px 20px;
+  text-decoration: none;
+  color:black;
+  margin: 4vw;
+  width: 10vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  background-color: aqua;
+  &:hover{
+  transform: translateY(5px);
+  }
+} 
